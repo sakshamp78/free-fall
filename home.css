@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(240, 238, 160); */
+}
+
+body{
+    background: url('./bg8.png') no-repeat center fixed;
+    background-size: cover;
+}
+
+#heading{
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+#difficultyLevel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Carter One', cursive, sans-serif;
+    align-items: center;
+    padding-top: 1em;
+    font-size: 2em;
+    height: 100%;
+}
+
+#diffHeading{
+    display: flex;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#options{
+    display: flex;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#options div{
+    margin-left: 0.5em;
+}
+.hideClas{
+    display: none;
+}
+
+#developer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5em;
+    /* margin-bottom: 1em; */
+    align-content: center;
+}
+
+#lowerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+#instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 3em;
+}
+
+#prevScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+#instructions h5, #prevScore h5{
+    text-align: left;
+    font-size: 2em;
+    font-family: 'Carter One', cursive, sans-serif;
+}
+
+#showBtn svg{
+    margin: 0.7em;
+}
+
+#innerText{
+    display: flex;
+}
+
+#innerText h6{
+    font-size: 1.2em;
+    display: flex;
+    width: min-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#prevScore div{
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width: 550px){
+    #options{
+        display: flex;
+        flex-direction: column;
+    }
+    #lowerDiv{
+        flex-direction: column;
+    }
+    #instructions{
+        margin-bottom: 2em;
+    }
+}
