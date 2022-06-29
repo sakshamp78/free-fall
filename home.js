@@ -13,7 +13,7 @@ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
-var prevScoreArr = ['-', '-', '-'];
+var prevScoreArr = ['0', '0', '0'];
 let prevScore = JSON.parse(localStorage.getItem("prevScore"));
 if(prevScore == null){
     localStorage.setItem("prevScore", JSON.stringify(prevScoreArr));
